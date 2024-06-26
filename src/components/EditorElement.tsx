@@ -34,11 +34,7 @@ class EditorElement extends Component<props, state> {
     doc: null,
     documentName: "default-doc",
     username: "Hello World!",
-    mode:
-      window.matchMedia &&
-      window.matchMedia("(prefers-color-scheme: dark)").matches
-        ? "dark"
-        : ("light" as Mode),
+    mode: "dark" as Mode,
   };
 
   async componentDidMount() {
