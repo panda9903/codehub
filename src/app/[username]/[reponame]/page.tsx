@@ -18,7 +18,7 @@ function App() {
   return (
     <>
       <ResizablePanelGroup direction="horizontal">
-        <ResizablePanel className="" defaultSize={15}>
+        <ResizablePanel className="" defaultSize={20}>
           <FileTree socket={socket} />
         </ResizablePanel>
         <ResizableHandle />
