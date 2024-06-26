@@ -6,8 +6,8 @@ import { langs } from "@uiw/codemirror-extensions-langs";
 import { basicSetup } from "@uiw/codemirror-extensions-basic-setup";
 import { indentUnit } from "@codemirror/language";
 
-import { cursorExtension } from "../utils/cursors";
-import { getDocument, peerExtension } from "../utils/collab";
+import { cursorExtension } from "@/utils/cursors";
+import { getDocument, peerExtension } from "@/utils/collab";
 import { Socket } from "socket.io-client";
 
 type Mode = "light" | "dark";
