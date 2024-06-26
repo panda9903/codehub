@@ -18,11 +18,11 @@ function App() {
   return (
     <>
       <ResizablePanelGroup direction="horizontal">
-        <ResizablePanel className="">
+        <ResizablePanel className="" defaultSize={15}>
           <FileTree socket={socket} />
         </ResizablePanel>
         <ResizableHandle />
-        <ResizablePanel className="min-w-96">
+        <ResizablePanel className="">
           <EditorElement socket={socket} className="h-screen" />
         </ResizablePanel>
       </ResizablePanelGroup>
